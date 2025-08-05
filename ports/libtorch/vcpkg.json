@@ -61,7 +61,7 @@
   "features": {
     "cuda": {
       "description": "Build with CUDA GPU backend",
-      "supports": "!(windows & staticcrt)",
+      "supports": "(windows & x64 & !staticcrt) | (linux & x64)",
       "dependencies": [
         "cuda",
         "cudnn",
@@ -79,6 +79,7 @@
           "platform": "linux"
         },
         "nvidia-cutlass",
+        "nvtx3",
         {
           "name": "tensorpipe",
           "features": [
