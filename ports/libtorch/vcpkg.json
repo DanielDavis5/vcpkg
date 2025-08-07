@@ -79,7 +79,6 @@
           "platform": "linux"
         },
         "nvidia-cutlass",
-        "nvtx3",
         {
           "name": "tensorpipe",
           "features": [
