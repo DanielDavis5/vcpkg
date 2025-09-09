@@ -300,6 +300,8 @@ __pycache__/
 !/triplets/x64-windows-static.cmake
 !/triplets/x64-windows.cmake
 !/triplets/x86-windows.cmake
+# Davis: add custom triplets
+!/triplets/x64-linux-libtorch.cmake
 
 !/triplets/community
 !/triplets/community/**
