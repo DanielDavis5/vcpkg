@@ -37,10 +37,7 @@ vcpkg_cmake_configure(
         -DCPUINFO_BUILD_UNIT_TESTS=OFF
         -DCPUINFO_BUILD_MOCK_TESTS=OFF
         -DCPUINFO_BUILD_BENCHMARKS=OFF
-    OPTIONS_DEBUG
-        -DCPUINFO_LOG_LEVEL=debug
-    OPTIONS_RELEASE
-        -DCPUINFO_LOG_LEVEL=default
+        -DCPUINFO_LOG_LEVEL=${CPUINFO_LOG_LEVEL}
 )
 vcpkg_cmake_install()
 vcpkg_cmake_config_fixup()

@@ -12,3 +12,5 @@ if (${PORT} MATCHES "gflags|glog")
     set(VCPKG_LIBRARY_LINKAGE dynamic)
     set(VCPKG_FIXUP_ELF_RPATH ON)
 endif()
+
+set(CPUINFO_LOG_LEVEL default)
