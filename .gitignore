@@ -304,6 +304,9 @@ __pycache__/
 !/triplets/community
 !/triplets/community/**
 
+!/triplets/davis
+!/triplets/davis/**
+
 *.exe
 *.zip
 
